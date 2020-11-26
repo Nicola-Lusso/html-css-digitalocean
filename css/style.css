@@ -1,6 +1,7 @@
 .debug{
   height: 500px;
 }
+/* HEADER */
 
 header  {
   width: 100%;
@@ -16,7 +17,6 @@ header li a{
   font-size: 15px;
 }
 
-
 .logo_header{
   width: 100%;
 }
@@ -30,10 +30,29 @@ header li a{
 }
 
 
-
+/* JUMBOTRON */
 
 #jumbotron{
   background-image: url('../img/bg-home-1.jpg');
   background-size: cover;
+}
 
+#jumbotron h1{
+ color: white;
+ font-size: 55px;
+}
+
+#jumbotron p{
+  color: white;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+#jumbotron .box_text h3 {
+  color: white;
+  font-size: 30px;
+}
+
+#jumbotron .box_text h3:last-child{
+  color: blue;
 }
