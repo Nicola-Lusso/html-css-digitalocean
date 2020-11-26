@@ -8,17 +8,17 @@ header  {
   background-color: white;
 
 }
-
+header .row{
+  margin-top: 20px;
+}
 header li a{
   color: #5b6886;
   font-size: 15px;
-  
 }
 
 
 .logo_header{
   width: 100%;
-  margin-top: 10px;
 }
 
 .btn_blue{
