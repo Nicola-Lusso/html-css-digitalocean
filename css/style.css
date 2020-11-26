@@ -160,3 +160,25 @@ header li a{
 #applications .info h4 {
   color: #5b6886;
 }
+
+/* IMG_BOX */
+#img_box{
+  background-color: rgb(194, 203, 221, 0.3);
+}
+
+#img_box .text_img {
+  margin: 30px 0;
+  color: #5b6886;
+}
+
+#img_box img {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+#img_box .text_img_box {
+  color: #031c4e;
+  font-weight: bold;
+  padding-bottom: 40px;
+
+}
