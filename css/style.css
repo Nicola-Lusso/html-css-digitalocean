@@ -48,11 +48,52 @@ header li a{
   line-height: 1.8;
 }
 
+#jumbotron .box{
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+
 #jumbotron .box_text h3 {
-  color: white;
+  color: #5b6886;
   font-size: 30px;
+  padding-top: 30px;
 }
 
 #jumbotron .box_text h3:last-child{
   color: blue;
+  padding: 0;
+}
+
+#jumbotron .dati{
+  width: 80%;
+  margin: auto;
+}
+
+#jumbotron button{
+  margin-bottom: 5px;
+}
+
+
+.btn_form{
+  width: 100%;
+  color: gray;
+}
+
+.btn_form_blue{
+  background-color: rgba(76, 139, 223, 0.91);
+  color: white;
+}
+
+.btn_form_gray{
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+#jumbotron small{
+  color: #5b6886;
+  font-size: 15px;
+
 }
