@@ -144,7 +144,11 @@ header li a{
 }
 
 #applications ul {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+#applications .info{
+  padding: 30px;
 }
 
 #applications .info p {
