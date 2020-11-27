@@ -180,5 +180,22 @@ header li a{
   color: #031c4e;
   font-weight: bold;
   padding-bottom: 40px;
+}
 
+/* BUSINESS */
+
+#business h2{
+  padding-bottom: 30px;
+  color: #031c4e;
+}
+
+#business .info{
+  font-size: 15px;
+}
+
+
+#business .info h3{
+  color: #031c4e;
+  font-size: 20px;
+  font-weight: 500;
 }
