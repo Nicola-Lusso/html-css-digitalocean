@@ -199,3 +199,26 @@ header li a{
   font-size: 20px;
   font-weight: 500;
 }
+
+#business .padding_30{
+  padding-bottom: 30px;
+}
+
+/* TABELLA */
+
+#tabella{
+  background: linear-gradient(to top,rgb(24, 57, 176), rgb(46, 192, 224));
+  color: white;
+}
+
+#tabella h2{
+  margin-bottom: 40px;
+}
+
+#tabella a{
+  color: rgb(29, 240, 170);
+}
+
+#tabella [class*='col-xs']{
+  border-bottom: 2px solid gray;
+}
