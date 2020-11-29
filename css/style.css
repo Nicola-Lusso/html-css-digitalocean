@@ -12,6 +12,7 @@ header  {
 header .navbar{
   line-height: 80px;
 }
+
 header li a{
   color: #5b6886;
   font-size: 15px;
@@ -30,6 +31,9 @@ header li a{
   padding: 4px 6px;
 }
 
+.padding_30{
+  padding-right: 30px;
+}
 
 /* JUMBOTRON */
 
@@ -201,7 +205,7 @@ header li a{
 }
 
 #business .padding_30{
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 /* TABELLA */
@@ -209,6 +213,7 @@ header li a{
 #tabella{
   background: linear-gradient(to top,rgb(24, 57, 176), rgb(46, 192, 224));
   color: white;
+
 }
 
 #tabella h2{
@@ -219,6 +224,77 @@ header li a{
   color: rgb(29, 240, 170);
 }
 
-#tabella [class*='col-xs']{
-  border-bottom: 2px solid gray;
+#tabella .city{
+  padding: 15px  5px;
+  border-bottom: 1px solid white;
+}
+
+#tabella .off{
+  border-bottom: none;
+  margin-bottom: 10px;
+}
+
+#tabella .city div:first-child{
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/* IMG_BOX2 */
+#img_box2 {
+  background-color: #F3F5F9;
+}
+
+#img_box2 h2{
+  font-size: 40px;
+  color: #031c4e;
+  padding-top: 30px;
+}
+
+.box_img2 {
+  height: 420px;
+  background-color: white;
+  margin-top: 90px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.box_img2 img{
+  padding-bottom: 20px;
+  width: 60%;
+}
+
+.box_img2 p{
+  padding-bottom: 10px;
+}
+
+#img_box2 h3{
+  margin: auto;
+  width: 60%;
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 2.6;
+}
+
+
+#img_box2 .row span a i{
+  padding-bottom: 20px;
+  padding-top: 40px;
+
+}
+
+#img_box2 .bold{
+  font-size: 20px;
+  font-weight: bold;
+  color: #031c4e;
+}
+
+#img_box2 .text_p{
+  font-size: 20px;
+  color: #5b6886;
+}
+
+#img_box2 .white{
+  color: white;
 }
