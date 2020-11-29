@@ -279,7 +279,7 @@ header li a{
 
 
 #img_box2 .row span a i{
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   padding-top: 40px;
 
 }
@@ -297,4 +297,61 @@ header li a{
 
 #img_box2 .white{
   color: white;
+}
+
+#get_started{
+  background-color: rgb(5, 38, 124);
+}
+
+#get_started h3{
+color: white;
+}
+
+#get_started .btn_blue{
+color: blue;
+}
+
+#get_started .btn_blue_2{
+  padding-bottom: 30px;
+}
+
+
+#footer-bottom{
+  background-color: rgb(8, 21, 55);
+  color: lightgrey;
+
+}
+
+.p_top_30{
+  padding-top: 30px;
+}
+
+.p_bot_10{
+  padding-bottom: 10px;
+}
+
+footer .social{
+  padding: 5px;
+  font-size: 20px;
+}
+
+#footer-bottom .container ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+#footer-bottom .container ul li a{
+  color: lightgrey;
+}
+
+#footer-bottom ul li a.text_upp{
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+#footer-bottom img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
 }
